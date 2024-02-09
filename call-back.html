@@ -1,0 +1,54 @@
+<div class="wrap-call-back">
+    <a class="call-close" id="close-call"><img src="./img/close.svg" alt=""></a>
+    <div class="call-back_title">
+        <p>Call Back Request</p>
+    </div>
+    <div class="call-back-body">
+        <p>Please leave your phone number, and I will call you at a convenient time for you</p>
+        <form action="" class="call-back-form" id="myForm-call">
+            <div class="call-back-input">
+                <label for="username" >Name</label>
+                <input type="text"  value="" id="name-call" required>
+            </div>
+            <div class="call-back-input">
+                <label for="telephone" >Тelephone</label>
+                <input type="tel" class="" id="tel-call" required>
+            </div>
+            <div class="call-back-data">
+                <label for="time">Call Time</label>
+                <select id="time" class="select-css selectOne" name="time" required>
+                        <option value="" disabled selected>Now</option>
+                        <option value="hr">Now</option>
+                        <option value="hr">10:00</option>
+                        <option value="hr">11:00</option>
+                        <option value="hr">12:00</option>
+                        <option value="hr">13:00</option>
+                        <option value="hr">14:00</option>
+                        <option value="hr">15:00</option>
+                        <option value="hr">16:00</option>
+                        <option value="hr">17:00</option>
+                        <option value="hr">18:00</option>
+                        <option value="hr">19:00</option>
+                        <option value="hr">20:00</option>
+                </select>
+                <select id="day" class="select-css selectTwo" name="day" required>
+                        <option value="" disabled selected>Today</option>
+                        <option value="td">Today</option>
+                        <option value="md">Monday</option>
+                        <option value="td">Tuesday</option>
+                        <option value="wd">Wednesday</option>
+                        <option value="thd">Thursday</option>
+                        <option value="fd">Friday</option>
+                </select>
+            </div>
+            <button class="form-button __button __btn-call" id="submitButton-call" disabled>Send</button>
+        </form>
+    </div>
+</div>
+
+
+
+<script src="./js/pop-call.js"></script>
+<script src="./js/call.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/scroll.js"></script>

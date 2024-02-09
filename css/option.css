@@ -1,0 +1,32 @@
+.select-css {
+  position: relative;
+  display: block;
+  padding: 10px; 
+  max-width: 100%;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  background-image: url('../img/arrow-call.svg'); 
+  background-repeat: no-repeat, repeat;
+  background-position: right 15px top 50%;
+  color: #ADADAD;
+  line-height: 130%;
+  border-radius: 5px;
+  border: 1px solid #ADADAD;
+}
+.selectOne{
+  width: 113px;
+}
+
+.selectTwo{
+  width: 150px;
+}
+.select-css::-ms-expand {
+  display: none;
+}
+
+.select-css:focus {
+  outline: none;
+}
